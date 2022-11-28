@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkquanlynhanvien_amis_ketoan"]=self["webpackChunkquanlynhanvien_amis_ketoan"]||[]).push([[499],{3499:function(n,a,t){t.r(a),t.d(a,{default:function(){return h}});var e=t(3396);function r(n,a,t,r,u,i){return(0,e.wg)(),(0,e.iD)("h1",null,"Đây là trang chủ chúng tôi đang phát triển")}var u={},i=t(89);const c=(0,i.Z)(u,[["render",r],["__scopeId","data-v-87113b94"]]);var h=c}}]);
+//# sourceMappingURL=499.18a15082.js.map

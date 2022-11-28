@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkquanlynhanvien_amis_ketoan"]=self["webpackChunkquanlynhanvien_amis_ketoan"]||[]).push([[364],{1364:function(n,a,e){e.r(a),e.d(a,{default:function(){return s}});var t=e(3396);function u(n,a,e,u,r,c){return(0,t.wg)(),(0,t.iD)("h1",null,"Trang bạn tìm không tồn tại")}var r={},c=e(89);const i=(0,c.Z)(r,[["render",u],["__scopeId","data-v-7dec6c44"]]);var s=i}}]);
+//# sourceMappingURL=364.bba0b210.js.map

@@ -1,0 +1,109 @@
+:root {
+  --primary__color: #2ca01c;
+  --primary__color-hover: #35bf22;
+  --primary__color-active: #248b15;
+  --while__color: #ffffff;
+  --background__color: #eceef1;
+  --menu__color: #393a3d;
+  --menu__color-active: #58595d;
+  --text__while-color: #ffffff;
+  --black__color: #000000;
+  --border-icon__color: #babec5;
+  --border-icon__color-hover: #6b6c72;
+  --text__color: #111111;
+  --height__header: 48px;
+  --primary__button-height: 34px;
+  --input__height: 32px;
+  --border__input: #babec5;
+  --url__icon: url("../logo/Sprites.64af8f61.svg");
+  --url__icon2: url("../logo/Sprites.d78db031.svg");
+  --url__loader: url("../logo/loading.svg");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "notosans-regular";
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  display: flex;
+}
+.text-center {
+  text-align: center;
+}
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+.flex-center {
+  display: flex;
+}
+/* Thuộc tính css thẻ input checkbox cần public */
+.info-checkbox {
+  padding-left: 8px;
+  cursor: pointer;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  transition: all ease 0.15s;
+}
+.modal-notification {
+  z-index: 20;
+}
+.modal-loader{
+  z-index: 30;
+}
+.modal.active {
+  visibility: visible !important;
+  opacity: 1 !important;
+  top: 0;
+}
+.modal-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.focus-loop {
+  opacity: 0;
+}
+.modal-body {
+  position: relative;
+  z-index: 1;
+  margin: 0 10px;
+  background-color: var(--while__color);
+  top: 50vh;
+  transform: translateY(-50%);
+  box-shadow: 0 5px 20px 0 rgb(0, 0, 0, 10%);
+  min-height: 100px;
+  transition: all ease 0.15s;
+}
+.focus-loop{
+  width: 0;
+  height: 0;
+  display: block;
+  border: none;
+}
